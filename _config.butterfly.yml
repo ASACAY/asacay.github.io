@@ -103,7 +103,11 @@ theme: butterfly
 deploy:
   type: ''
 
-
+# MathJax Support
+mathjax:
+  enable: true
+  per_page: true
+  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 menu:
   主页: / || fas fa-home
   博文 || fa fa-graduation-cap:

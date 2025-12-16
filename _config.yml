@@ -102,3 +102,12 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# kramed 配置（适配 MathJax 公式渲染）
+kramed:
+  # 取消对 $ 符号的转义（关键：保证行内公式 $...$ 生效）
+  inlineMath:
+    - [ '$', '$' ]
+    - [ '\\(', '\\)' ]
+  # 取消对下划线 _ 的转义（避免下标如 C_{pk} 被解析为斜体）
+  escape: false 
