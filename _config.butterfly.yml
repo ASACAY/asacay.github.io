@@ -102,16 +102,13 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-math:
-  engine: 'mathjax'
-  mathjax:
   
-
-# MathJax
-mathjax:
-  enable: true
-  per_page: true
-
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
+katex:
+  # Enable the copy KaTeX formula
+  copy_tex: false
 
 
 menu:

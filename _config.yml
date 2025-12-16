@@ -103,14 +103,6 @@ theme: butterfly
 deploy:
   type: ''
 
-math:
-  engine: 'mathjax'
-  mathjax:
-kramed:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
