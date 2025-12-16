@@ -25,7 +25,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.3.5",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-next": "^8.23.1",
-    "save": "^2.9.0"
+    "hexo-theme-next": "^8.23.1"
   }
 }

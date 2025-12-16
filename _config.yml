@@ -103,11 +103,14 @@ theme: butterfly
 deploy:
   type: ''
 
-# kramed 配置（适配 MathJax 公式渲染）
+math:
+  engine: 'mathjax'
+  mathjax:
 kramed:
-  # 取消对 $ 符号的转义（关键：保证行内公式 $...$ 生效）
-  inlineMath:
-    - [ '$', '$' ]
-    - [ '\\(', '\\)' ]
-  # 取消对下划线 _ 的转义（避免下标如 C_{pk} 被解析为斜体）
-  escape: false 
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true

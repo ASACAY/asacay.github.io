@@ -102,12 +102,18 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+math:
+  engine: 'mathjax'
+  mathjax:
+  
 
-# MathJax Support
+# MathJax
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+
 menu:
   主页: / || fas fa-home
   博文 || fa fa-graduation-cap:
