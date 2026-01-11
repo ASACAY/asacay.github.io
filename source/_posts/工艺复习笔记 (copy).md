@@ -8,7 +8,7 @@ katex: ture
 
 > 特别鸣谢范金鹏同志大力赞助,范老板已赞助两次:kissing_heart::wink::thumbsup:
 >
-> 作者:mens::poop::crown:   $_{AND}$ :mens::point_up::yum:
+> 作者​ :mens: :poop: :crown:   $_{AND}$ ​ :mens: :point_up: :yum:
 
 # 设备复习提纲
 
@@ -111,7 +111,7 @@ katex: ture
       ⑤焊接时间；
       ⑥保压时间；
 
-7. #### **热熔设备(:mens::point_up::yum:感觉不考)**
+7. #### **热熔设备(​ :mens: :point_up: :yum:感觉不考)**
 
    1. 两种或以上材料，热熔加压并用；
 
