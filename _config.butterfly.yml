@@ -114,12 +114,12 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: 
-      linkhttps://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wxc.jpg
+    - img: https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wxf.jpg
+      link:
       text: 微信
-    - img:https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wxc.jpg
+    - img: https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wxf.jpg
+      link:
       text: 支付寶
-
 
 
 menu:
