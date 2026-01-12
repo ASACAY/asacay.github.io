@@ -127,8 +127,8 @@ githubEmojis:
   className: github-emoji  # Emoji的CSS类名（无需修改，兼容Butterfly）
   inject: true        # 自动注入必要的样式和脚本（关键，确保Emoji正常显示）
   styles:             # 可选：自定义Emoji样式（大小、对齐等，适配Butterfly）
-    font-size: 0.8em
-    vertical-align: 0em
+    font-size: 0.5em
+    vertical-align: -0.5em
   customEmojis: {}    # 可选：添加自定义Emoji（无需修改，默认即可）
 
 
