@@ -3,6 +3,16 @@ title: 设备复习笔记(金鹏赞助特别版)
 date: 2026-1-11 20:35:55
 tags: notes
 katex: ture
+reward:
+  enable: true
+  text:
+  QR_code:
+    - img: /photos/wx.jpg
+      link:
+      text: 微信
+    - img: /photos/wx.jpg
+      link:
+      text: 支付寶
 
 ---
 
