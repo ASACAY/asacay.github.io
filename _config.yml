@@ -107,12 +107,15 @@ markdown:
   plugins:
     - '@renbaoshuo/markdown-it-katex'
 
-# hexo-filter-github-emojis 插件配置
+# hexo-filter-github-emojis 插件配置（优化垂直对齐）
 githubEmojis:
-  enable: true        # 启用插件
-  className: github-emoji  # Emoji的CSS类名（无需修改，兼容Butterfly）
-  inject: true        # 自动注入必要的样式和脚本（关键，确保Emoji正常显示）
-  styles:             # 可选：自定义Emoji样式（大小、对齐等，适配Butterfly）
-    font-size: 1.2em
-    vertical-align: -0.2em
-  customEmojis: {}    # 可选：添加自定义Emoji（无需修改，默认即可）
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+    font-size: 1em  # 建议与文字大小保持一致（或1.1em，视觉更协调）
+    # 推荐3个垂直对齐值，任选其一测试，优先推荐middle
+    vertical-align: middle  # 最通用，与文字基线居中对齐（首选）
+    # vertical-align: baseline  # 与文字基线对齐，适合偏小的Emoji
+    # vertical-align: -0.1em  # 微调偏移量，适配部分特殊字体样式
+  customEmojis: {}
