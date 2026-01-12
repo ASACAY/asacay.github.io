@@ -13,7 +13,6 @@ reward:
     - img: /photos/wx.jpg
       link:
       text: 支付寶
-
 ---
 
 > 特别鸣谢范金鹏同志大力赞助,范老板已赞助两次:kissing_heart::wink::thumbsup:
@@ -153,3 +152,14 @@ reward:
       ⑦效率较高；
 
       ⑧对操作员要求低；
+
+reward:
+  enable: true
+  text:
+  QR_code:
+    - img: /photos/wx.jpg
+      link:
+      text: 微信
+    - img: /photos/wx.jpg
+      link:
+      text: 支付寶
