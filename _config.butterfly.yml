@@ -114,10 +114,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wx.jpg
+    - img: https://a1.qpic.cn/psc?/V126Ijyf3TqKLE/TmEUgtj9EK6.7V8ajmQrEMS0msK0CcKgYLYytXE4k7gj0zEyXeTpA1m.s4eok18rcIWENSn7Ju57Ge612bEayl5QDX7yHXa58ydKj5PhKZg!/b&ek=1&kp=1&pt=0&bo=OAQ3BDgENwQWECA!&tl=3&vuin=1255703107&tm=1768183200&dis_t=1768183895&dis_k=894867a4911edc5788a5c1c9db91bd2a&sce=60-2-2&rf=viewer_311
       link:
       text: 微信
-    - img: https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/wx.jpg
+    - img: https://a1.qpic.cn/psc?/V126Ijyf3TqKLE/TmEUgtj9EK6.7V8ajmQrEMS0msK0CcKgYLYytXE4k7gj0zEyXeTpA1m.s4eok18rcIWENSn7Ju57Ge612bEayl5QDX7yHXa58ydKj5PhKZg!/b&ek=1&kp=1&pt=0&bo=OAQ3BDgENwQWECA!&tl=3&vuin=1255703107&tm=1768183200&dis_t=1768183895&dis_k=894867a4911edc5788a5c1c9db91bd2a&sce=60-2-2&rf=viewer_311
       link:
       text: 支付寶
 
