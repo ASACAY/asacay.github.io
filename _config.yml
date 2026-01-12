@@ -106,3 +106,13 @@ deploy:
 markdown:
   plugins:
     - '@renbaoshuo/markdown-it-katex'
+
+# hexo-filter-github-emojis 插件配置
+githubEmojis:
+  enable: true        # 启用插件
+  className: github-emoji  # Emoji的CSS类名（无需修改，兼容Butterfly）
+  inject: true        # 自动注入必要的样式和脚本（关键，确保Emoji正常显示）
+  styles:             # 可选：自定义Emoji样式（大小、对齐等，适配Butterfly）
+    font-size: 1.2em
+    vertical-align: -0.2em
+  customEmojis: {}    # 可选：添加自定义Emoji（无需修改，默认即可）
